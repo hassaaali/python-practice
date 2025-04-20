@@ -10,7 +10,7 @@ Analysis:
 4. while i > 0, check if first[0:i] in strs[1:]
 5. if yes, return first[0:i] else return ""
 
-Highest time complexity will be that of sorting: O(n log(n))
+Overall: O(n + m * n), or simply O(m * n), where m is the length of the shortest string and n is the number of strings.
 Space complexity will be O(1)
 """
 
